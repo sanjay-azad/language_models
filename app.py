@@ -6,7 +6,6 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
-from chatgpt_instructions import ACT_AS_SANJAY, SAVIOUR_HUMANITY
 import os
 from message_log import log
 from PIL import Image
