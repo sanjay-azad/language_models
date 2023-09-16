@@ -2,8 +2,4 @@ streamlit
 langchain
 openai
 chromadb
-<<<<<<< HEAD
 pysqlite3-binary
-=======
-sqlite3 >= 3.35.0
->>>>>>> 757a10cb208077281c02380ac9a3f115936238a7
