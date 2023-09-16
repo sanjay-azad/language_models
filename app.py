@@ -14,7 +14,9 @@ from PIL import Image
 # openai.api_key  = os.environ['OPENAI_API_KEY']
 openai.api_key  = st.secrets['OPENAI_API_KEY']
 
-# system_message = [{"role": "system", "content": ACT_AS_SANJAY}]
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Load the data from vectordb
 @st.cache_resource
